@@ -21,5 +21,5 @@ cd .dotfiles
 #### 2. Install dotfiles:
 
 ```bash
-stow .
+stow -v .
 ```
