@@ -1,0 +1,94 @@
+# ~/.config/git/config
+[user]
+  name = Jakub Chodzinski
+  email = xapixowy@gmail.com
+
+[advice]
+  addEmptyPathspec = false
+  pushNonFastForward = false
+  statusHints = false
+
+[branch]
+  sort = -comitterdate
+  
+[color]
+  ui = auto
+
+[color "diff"]
+  meta = brightblack
+  frag = magenta
+  context = white
+  whitespace = yellow reverse
+  old = red
+
+[color "decorate"]
+  HEAD = red
+  branch = blue
+  tag = yellow
+  remoteBranch = magenta
+
+[color "branch"]
+  current = magenta
+  local = default
+  remote = yellow
+  upstream = green
+
+[commit]
+  template = ~/.config/git/template
+
+[core]
+  compression = 9
+  whitespace = error
+  preloadindex = true
+  editor = nano
+  excludeFile = ~/.config/git/ignore
+
+[diff]
+  context = 3
+  renames = copies
+  interHunkContext = 10
+
+[diff-so-fancy]
+  markEmptyLines = false
+
+[init]
+  defaultBranch = dev
+
+[interactive]
+  diffFilter = diff-so-fancy --patch
+  singlekey = true
+
+[log]
+  abbrevCommit = true
+  graphColors = green,yellow,magenta,red
+
+[pager]
+  diff = diff-so-fancy | less --tabs=4 -RF
+  branch = false
+  tag = false
+
+[pull]
+  default = current
+
+[push]
+  autoSetupRemote = true
+  default = current
+  followTags = true
+
+[rebase]
+  autoStash = true
+  missingCommitsCheck = true
+
+[status]
+  branch = true
+  showStash = true
+  showUntrackedFiles = all
+
+[tag]
+  sort = -taggerdate
+
+[url "git@github.com:xapixowy/"]
+  insteadOf = "xapixowy:"
+
+[url "git@github.com:"]
+  insteadOf = "github:"
