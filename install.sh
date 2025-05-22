@@ -118,7 +118,7 @@ install_diff_so_fancy() {
 }
 
 main() {
-  # link_dotfiles
+  link_dotfiles
   install_homebrew_if_missing
   install_oh_my_zsh_if_missing
   install_starship_if_missing
