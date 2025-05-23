@@ -49,5 +49,13 @@ alias gr='git reset'
 alias gs='git status --short'
 alias gu='git pull'
 
+# Aliases: Tmux
+alias tm='tmux'
+alias tmas='tmux attach-session'
+alias tmks='tmux kill-session'
+alias tmkw='tmux kill-window'
+alias tmls='tmux list-sessions'
+alias tmns='tmux new-session'
+
 # Display random Pokemon
 pokemon-colorscripts -r --no-title
