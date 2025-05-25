@@ -1,2 +1,8 @@
+# Aerospace
 lalt - l : aerospace focus right
 lalt + shift - l : aerospace move right
+
+# Launch apps
+cmd + ctrl + alt + shift - e : open $HOME
+cmd + ctrl + alt + shift - b : open -n /Applications/Brave\ Browser.app
+cmd + ctrl + alt + shift - t : open -n /Applications/Ghostty.app

@@ -7,9 +7,6 @@ source $ZSH/oh-my-zsh.sh
 # Load: Starship
 eval "$(starship init zsh)"
 
-# Load: Angular CLI
-source <(ng completion script)
-
 # Load: Brew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
@@ -23,10 +20,14 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
+# Load: Angular CLI
+source <(ng completion script)
+
 # Aliases: General
 alias ls='ls -G'
 alias ll='ls -lG'
 alias neofetch='fastfetch'
+alias python='python3'
 
 # Aliases: Git
 alias ga='git add'
