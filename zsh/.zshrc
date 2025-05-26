@@ -57,6 +57,7 @@ alias tmks='tmux kill-session'
 alias tmkw='tmux kill-window'
 alias tmls='tmux list-sessions'
 alias tmns='tmux new-session'
+alias tmrn='tmux rename-session'
 
 # Display random Pokemon
 pokemon-colorscripts -r --no-title
