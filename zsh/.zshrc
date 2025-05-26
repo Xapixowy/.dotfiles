@@ -49,6 +49,7 @@ alias gp='git push'
 alias gr='git reset'
 alias gs='git status --short'
 alias gu='git pull'
+alias gt='git tag'
 
 # Aliases: Tmux
 alias tm='tmux'
