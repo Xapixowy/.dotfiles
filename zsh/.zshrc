@@ -31,12 +31,9 @@ alias python='python3'
 
 # Aliases: Git
 alias ga='git add'
-alias gap='ga --patch'
 alias gb='git branch'
 alias gba='gb --all'
 alias gc='git commit'
-alias gca='gc --amend --no-edit'
-alias gce='gc --amend'
 alias gco='git checkout'
 alias gcl='git clone --recursive'
 alias gd='git diff --output-indicator-new=" " --output-indicator-old=" "'
@@ -50,6 +47,7 @@ alias gr='git reset'
 alias gs='git status --short'
 alias gu='git pull'
 alias gt='git tag'
+alias gst='git stash'
 
 # Aliases: Tmux
 alias tm='tmux'

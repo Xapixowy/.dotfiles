@@ -9,7 +9,7 @@
   statusHints = false
 
 [branch]
-  sort = -comitterdate
+  sort = -committerdate
   
 [color]
   ui = auto
